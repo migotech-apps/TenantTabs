@@ -1,55 +1,54 @@
-# TenantTabs third-party compliance materials
+# TenantTabs — Third-Party Licences and Source Materials
 
-Repository: migotech-apps/TenantTabs, under third-party/extpay/
-Public compliance location:
+TenantTabs includes ExtPay.js 3.1.2 under LGPLv3 and webextension-polyfill 0.7.0 under MPL-2.0.
+
+TenantTabs' original application code remains proprietary. Recipients retain the rights granted by the applicable third-party licences.
+
+## Licence and Source Materials
+
+Complete licence texts, the corresponding third-party source archives and applicable build materials are provided in this directory.
+
+- `NOTICES.txt` identifies the third-party components and provides pinned upstream source references.
+- `source-provenance.json` identifies the corresponding source archives.
+- `SHA256SUMS.txt` provides checksums for the audited distribution materials.
+- `build-instructions.txt` and `REPLACEMENT.txt` describe library modification and replacement procedures.
+- `PERMISSION.txt` contains the proposed limited replacement permission for incorporation into the applicable distribution terms.
+
+## Public Compliance Location
+
+TenantTabs provides its third-party licence notices, corresponding library source archives and supporting compliance materials at:
+
 https://github.com/migotech-apps/TenantTabs/tree/main/third-party/extpay
-PUBLIC THIRD-PARTY MATERIALS - NOT TENANTTABS RELEASE OR LEGAL APPROVAL
 
-TenantTabs remains proprietary. This repository contains third-party library
-source and compliance documentation, not TenantTabs application code, XPIs,
-signing credentials, account records or private maintainer correspondence.
-ExtPay.js 3.1.2 is used under LGPLv3; the embedded webextension-polyfill 0.7.0
-remains subject to MPL-2.0. Historical upstream licence labels are preserved.
-The publisher has resolved the ExtPay licence ambiguity; this statement does not
-publish the private correspondence or waive other LGPL obligations.
+This public location should also be referenced in the documentation accompanying the distributed extension.
 
-Contents
-- source/: exact preserved upstream source archives, pinned by commit.
-- LICENSE-*.txt: full LGPLv3/GPLv3 and MPL-2.0 texts.
-- source-provenance.json: source URLs, immutable identities and archive hashes.
-- ExtPay-3.1.2-dependencies.json: all 70 locked ExtPay packages/integrities.
-- build-instructions.txt: editable inputs and build instructions (not executed here).
-- REPLACEMENT.txt: proposed LGPL section 4(d)(0) route and Firefox limitations.
-- PERMISSION.txt: explicit limited application permission, for owner adoption.
-- DISTRIBUTION-NOTICES.txt and NOTICES.txt: recipient notices, without private mail.
-- RELEASE-SOURCE-MAP.json: unreleased Free/Pro reference mapping; no approved
-  application hashes/URLs are invented. Complete these fields for each release.
-- SHA256SUMS.txt: preserved identity inventory of the audited preparation snapshot.
-  Later documentation corrections are not reflected in that unchanged inventory.
+## Proprietary Application Code
 
-## Source and instructions
+TenantTabs' proprietary application source code is not published in this repository.
 
-- [ExtPay source snapshot](source/ExtPay-3.1.2-source.zip)
-- [Polyfill source snapshot](source/webextension-polyfill-0.7.0-source.zip)
-- [Build instructions](build-instructions.txt)
-- [Replacement instructions and unresolved questions](REPLACEMENT.txt)
-- [Limited permission for adoption in delivered terms](PERMISSION.txt)
-- [Third-party notices](NOTICES.txt)
-- [LGPLv3](LICENSE-LGPL-3.0.txt), [GPLv3](LICENSE-GPL-3.0.txt), [MPL-2.0](LICENSE-MPL-2.0.txt)
-- [Release-to-source mapping](RELEASE-SOURCE-MAP.json)
+The corresponding application is provided through its authorised distribution channels. Third-party source materials are made available separately to support recipients' rights under the applicable open-source licences.
 
-Use the source archives here or the pinned public upstream URLs in NOTICES.txt.
-These third-party materials are publicly available without additional charge.
-Link this source location prominently next to each authorised application download.
-The publisher remains responsible for continued equivalent source access.
+## Modification and Replacement
 
-Publication is not compliance sign-off. A library-only public repository does not
-by itself fulfil section 4(d)(0): recipients also need sufficient Corresponding
-Application Code/materials and effective recombination permissions. Obtain any
-proprietary application only through its separately authorised distribution.
-If additional unpublished proprietary materials are required, distribution stays
-blocked until their provision is authorised or another compliant route is agreed.
+Recipients may exercise the rights granted by the applicable third-party licences.
 
-The original preparation did not build or sign extensions or libraries, change
-Firefox configuration or run tests. Subsequent publication of these third-party
-materials does not release TenantTabs application code or approve a release.
+Instructions for modifying and replacing the covered libraries are provided in `build-instructions.txt` and `REPLACEMENT.txt`.
+
+Modifying a signed Firefox XPI invalidates its signature. Temporary development loading is session-limited, and permanent installation on standard Firefox release or beta versions normally requires Mozilla signing.
+
+These materials do not guarantee access to Mozilla signing keys or approval for a modified extension.
+
+## Outstanding Compliance Requirements
+
+Publication of the third-party source materials does not, by itself, establish complete LGPL compliance.
+
+Before final distribution, the publisher must resolve:
+
+- The sufficiency of Corresponding Application Code and recombination arrangements under LGPLv3 Section 4(d)(0).
+- Formal adoption of any necessary replacement permissions in the applicable distribution terms.
+- Any applicable installation-information requirements.
+- Accurate mapping between the distributed TenantTabs version, the bundled third-party libraries and the corresponding source materials.
+
+These matters remain subject to final technical and legal review.
+
+The public availability of these materials must not be interpreted as confirmation that all outstanding distribution requirements have been satisfied.
