@@ -16,7 +16,8 @@ TenantTabs' proprietary extension source code is not included.
   customisation and automatic backups.
 
 Firefox **148.0 or later** is required. Initial public release **1.1.0** is being
-prepared; there is no Mozilla Add-ons installation link yet. Pro activates inside
+prepared; the extension is not yet publicly released and there is no Mozilla
+Add-ons installation link yet. Pro activates inside
 the public Free extension; a separate Pro download is not required.
 
 ## Documentation and support
@@ -24,7 +25,7 @@ the public Free extension; a separate Pro download is not required.
 - [Homepage](index.html)
 - [Privacy policy](privacy.html)
 - [Support and troubleshooting](support.html)
-- [ExtPay source, licences and replacement instructions](https://migotech-apps.github.io/TenantTabs/third-party/extpay/)
+- [Third-party licences and source](https://migotech-apps.github.io/TenantTabs/third-party/extpay/)
 - [Public bug reports](https://github.com/migotech-apps/TenantTabs/issues)
 - Private billing, licence and privacy enquiries: tenanttabs@m.migotech.net
 
@@ -45,7 +46,7 @@ The privacy policy is published on the website; public commit and Pages deployme
 history record publication timing.
 Add an actual Mozilla Add-ons installation link only after public availability.
 
-## Third-party software
+## Third-party licences and source
 
 TenantTabs includes ExtPay 3.1.2 under LGPLv3 and webextension-polyfill 0.7.0
 under MPL-2.0. [Exact source, licence texts and build materials](https://migotech-apps.github.io/TenantTabs/third-party/extpay/)
