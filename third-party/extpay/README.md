@@ -1,9 +1,9 @@
 # TenantTabs third-party compliance materials
 
 Repository: migotech-apps/TenantTabs, under third-party/extpay/
-Intended public location (upload pending):
+Public compliance location:
 https://github.com/migotech-apps/TenantTabs/tree/main/third-party/extpay
-LOCAL OWNER-REVIEW DRAFT - NOT PUBLISHED OR APPROVED FOR DISTRIBUTION
+PUBLIC THIRD-PARTY MATERIALS - NOT TENANTTABS RELEASE OR LEGAL APPROVAL
 
 TenantTabs remains proprietary. This repository contains third-party library
 source and compliance documentation, not TenantTabs application code, XPIs,
@@ -24,7 +24,8 @@ Contents
 - DISTRIBUTION-NOTICES.txt and NOTICES.txt: recipient notices, without private mail.
 - RELEASE-SOURCE-MAP.json: unreleased Free/Pro reference mapping; no approved
   application hashes/URLs are invented. Complete these fields for each release.
-- SHA256SUMS.txt: static identity inventory of this prepared directory.
+- SHA256SUMS.txt: preserved identity inventory of the audited preparation snapshot.
+  Later documentation corrections are not reflected in that unchanged inventory.
 
 ## Source and instructions
 
@@ -38,17 +39,17 @@ Contents
 - [Release-to-source mapping](RELEASE-SOURCE-MAP.json)
 
 Use the source archives here or the pinned public upstream URLs in NOTICES.txt.
-After owner approval, make these materials available without additional charge
-and link the source location prominently next to each authorised application
-download. The existing repository is public; this compliance directory has not been uploaded.
+These third-party materials are publicly available without additional charge.
+Link this source location prominently next to each authorised application download.
 The publisher remains responsible for continued equivalent source access.
 
-Preparation is not compliance sign-off. A library-only public repository does not
+Publication is not compliance sign-off. A library-only public repository does not
 by itself fulfil section 4(d)(0): recipients also need sufficient Corresponding
 Application Code/materials and effective recombination permissions. Obtain any
 proprietary application only through its separately authorised distribution.
 If additional unpublished proprietary materials are required, distribution stays
 blocked until their provision is authorised or another compliant route is agreed.
 
-No repository creation/upload, publication, extension/library build, signing,
-Firefox configuration change or test was performed in preparing this directory.
+The original preparation did not build or sign extensions or libraries, change
+Firefox configuration or run tests. Subsequent publication of these third-party
+materials does not release TenantTabs application code or approve a release.
