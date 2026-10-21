@@ -1,0 +1,44 @@
+{
+  "proposedRepository": "migotech-apps/TenantTabs",
+  "published": false,
+  "entries": [
+    {
+      "applicationVersion": "1.0.0",
+      "edition": "free",
+      "mappingStatus": "UNRELEASED REFERENCE; owner must confirm exact authorised XPI before release",
+      "applicationArtifactIncluded": false,
+      "applicationXpiSha256": null,
+      "applicationDownload": null,
+      "distributionScope": "public Free target",
+      "component": "ExtPay3.1.2",
+      "componentSha256": "ec38f20eeea04502e68e99b939fe0e188045bf68cabe605080cdad79c7fae15a",
+      "componentCommit": "5e648eaf53d9b82231e239e50310debc100247d1",
+      "polyfillVersion": "0.7.0",
+      "polyfillCommit": "93203c6995f282dab7370d463e079a2b8d81abbb",
+      "sourceArchives": [
+        "source/ExtPay-3.1.2-source.zip",
+        "source/webextension-polyfill-0.7.0-source.zip"
+      ],
+      "licence": "LGPLv3 for ExtPay; MPL-2.0 for polyfill"
+    },
+    {
+      "applicationVersion": "1.0.0",
+      "edition": "pro",
+      "mappingStatus": "UNRELEASED REFERENCE; owner must confirm exact authorised XPI before release",
+      "applicationArtifactIncluded": false,
+      "applicationXpiSha256": null,
+      "applicationDownload": null,
+      "distributionScope": "internal Pro development; no public Pro application distribution authorised",
+      "component": "ExtPay3.1.2",
+      "componentSha256": "ec38f20eeea04502e68e99b939fe0e188045bf68cabe605080cdad79c7fae15a",
+      "componentCommit": "5e648eaf53d9b82231e239e50310debc100247d1",
+      "polyfillVersion": "0.7.0",
+      "polyfillCommit": "93203c6995f282dab7370d463e079a2b8d81abbb",
+      "sourceArchives": [
+        "source/ExtPay-3.1.2-source.zip",
+        "source/webextension-polyfill-0.7.0-source.zip"
+      ],
+      "licence": "LGPLv3 for ExtPay; MPL-2.0 for polyfill"
+    }
+  ]
+}

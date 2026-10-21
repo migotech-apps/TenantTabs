@@ -1,0 +1,24 @@
+Third-party software notices
+
+ExtPay.js 3.1.2, ExtensionPay.com. Used under GNU LGPL version 3.
+The unmodified bundled distribution has SHA256:
+ec38f20eeea04502e68e99b939fe0e188045bf68cabe605080cdad79c7fae15a
+Preferred editable input: ExtPay.dev.js. Release build: rollup.config.release.js.
+Exact source and build materials:
+source/ExtPay-3.1.2-source.zip
+https://codeload.github.com/Glench/ExtPay/zip/5e648eaf53d9b82231e239e50310debc100247d1
+Complete LGPLv3 and GPLv3 texts are supplied as LICENSE-LGPL-3.0.txt and LICENSE-GPL-3.0.txt.
+Upstream metadata/header labels are retained unmodified as historical source.
+
+The distribution embeds Mozilla webextension-polyfill 0.7.0 under MPL-2.0.
+Preferred source: src/browser-polyfill.js; api-metadata.json and Gruntfile.js.
+source/webextension-polyfill-0.7.0-source.zip
+https://codeload.github.com/mozilla/webextension-polyfill/zip/93203c6995f282dab7370d463e079a2b8d81abbb
+The MPL-2.0 text is in LICENSE-MPL-2.0.txt. Original third-party notices and
+warranty disclaimers are retained within the unmodified source snapshots.
+
+The original TenantTabs application remains proprietary. Recipients retain the
+rights granted by the covered component licences. See PERMISSION.txt for the
+limited replacement permission prepared for incorporation in application terms,
+and REPLACEMENT.txt for the proposed process and unresolved release conditions.
+This repository contains no private maintainer correspondence.

@@ -1,0 +1,77 @@
+Proposed LGPLv3 section 4 replacement/recombination method
+STATIC REVIEW; SUFFICIENCY NOT YET DEMONSTRATED; NO FIREFOX TESTS PERFORMED
+
+Section 4(d)(0) requires both Minimal Corresponding Source for the library and
+Corresponding Application Code in a suitable form and under terms allowing
+recombination. Application code may be object and/or source code, with necessary
+data and utilities. A public ExtPay source repository alone is insufficient.
+Section 4(d)(1) is not assumed merely because vendor/ExtPay.js is a separate file.
+
+Candidate application material is the exact already-authorised delivered XPI:
+its HTML/JavaScript/assets/manifest are readable and can be copied independently
+of the original edition packager. An interface-compatible vendor/ExtPay.js can
+therefore be substituted without compiling the proprietary application anew.
+Static inspection supports this design, but no modified extension has been built
+or executed here. The owner must confirm that the delivered materials really
+contain everything needed and incorporate PERMISSION.txt in the actual terms.
+Any necessary application material not already authorised for delivery remains
+a blocker. Do not upload proprietary application code or XPIs to this repository,
+infer a broad application source release, or claim these documents alone comply.
+The same assessment applies to Free and any authorised recipients of internal Pro.
+
+Recipient process for the proposed method:
+1. Obtain covered source through NOTICES.txt. Obtain the exact corresponding
+   TenantTabs XPI only through its authorised distribution, not this repository.
+2. Modify ExtPay.dev.js, rebuilding the library as described in build-instructions.txt,
+   or use an interface-compatible modified ExtPay IIFE under its applicable terms.
+3. Extract a copy of the authorised XPI into a separate development directory.
+   Retain the application manifest/assets and replace vendor/ExtPay.js only.
+   The existing manifest loads that path for background/content-script use.
+   Keep the global ExtPay name/public API. Record changes and retain notices.
+4. Discard stale META-INF signature files only in the working copy. The original
+   publisher signature cannot authenticate modified content. Do not change the
+   installed original, claim an official modified release or use publisher keys.
+5. In an isolated Firefox development profile use about:debugging / This Firefox /
+   Load Temporary Add-on and select the extracted manifest.json. Mozilla documents
+   this supported temporary execution route. It ends on removal/browser restart
+   and does not fully reproduce permanent signed installation. No preference
+   change, signing bypass or publisher service credential is required for this
+   temporary step. It is not proof of final LGPL installation compliance.
+
+Firefox signing limits
+Release/beta permanent installation requires Mozilla signing. A recipient cannot
+reuse the publisher's signature after replacing the library. A separately signed
+modified add-on would require the recipient's own suitable ID/account and Mozilla
+review; approval, identity continuity and user-data migration are not guaranteed.
+Mozilla also documents configuration-dependent unsigned installation in certain
+development channels, but this preparation changes no Firefox preference and
+does not treat such a configuration change as an established compliance solution.
+The TenantTabs qualification signing helper intentionally cannot sign arbitrary
+recipient IDs. Signing through the publisher is not a condition of these rights.
+
+Section 4(e) / GPLv3 section 6 installation information
+The GPL User Product provision is conditional, including a conveyance in/with/
+specifically for a User Product as part of a transfer of possession/use of that
+product. A standalone extension download on the recipient's existing computer
+does not by itself establish such a transfer; distributing with hardware or a
+different transaction could change the analysis. Neither universal exemption
+nor automatic applicability is asserted here. Owner/legal review must establish
+the actual transaction and any resulting obligations. If applicable, sufficient
+installation/execution information is needed; a session-only load or a route
+dependent on unguaranteed third-party signing must not be silently approved.
+Even if section 4(e) does not apply, section 4(d)(0)'s materials and effective
+permission requirements still apply. Copyright attribution permission is not a
+blanket waiver of any of these other obligations.
+
+Decision before distribution
+Confirm application-material sufficiency and authorisation, adopt the limited
+permission, and settle installation-information applicability/adequacy. Until
+then section 4 compliance is not demonstrably satisfied and this release gate
+cannot close. No new proprietary materials or publisher credentials are released
+by this proposed route. This does not reopen the resolved LGPL/AGPL ambiguity.
+
+References
+https://www.gnu.org/licenses/lgpl-3.0.html (section 4)
+https://www.gnu.org/licenses/gpl-3.0.html (sections 0, 1 and 6)
+https://extensionworkshop.com/documentation/publish/signing-and-distribution-overview/
+https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/

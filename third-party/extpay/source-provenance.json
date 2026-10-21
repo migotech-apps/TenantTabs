@@ -1,0 +1,41 @@
+{
+  "recorded": "2026-10-19",
+  "archives": [
+    {
+      "name": "ExtPay-3.1.2",
+      "repository": "https://github.com/Glench/ExtPay",
+      "commit": "5e648eaf53d9b82231e239e50310debc100247d1",
+      "archive": "source/ExtPay-3.1.2-source.zip",
+      "download": "https://codeload.github.com/Glench/ExtPay/zip/5e648eaf53d9b82231e239e50310debc100247d1",
+      "sha256": "4b9f49f943178148b7797baf06994a1baf0d87e67b98d93df897b0806a1aa131",
+      "bytes": 2392508
+    },
+    {
+      "name": "webextension-polyfill-0.7.0",
+      "repository": "https://github.com/mozilla/webextension-polyfill",
+      "commit": "93203c6995f282dab7370d463e079a2b8d81abbb",
+      "archive": "source/webextension-polyfill-0.7.0-source.zip",
+      "download": "https://codeload.github.com/mozilla/webextension-polyfill/zip/93203c6995f282dab7370d463e079a2b8d81abbb",
+      "sha256": "3f84ade27e0b21752eb3c87d7c6f0a268f50ce17493ae7c5143dceae268a188f",
+      "bytes": 70667
+    }
+  ],
+  "licenceTexts": [
+    {
+      "file": "LICENSE-LGPL-3.0.txt",
+      "source": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/LGPL-3.0-only.txt",
+      "sha256": "996af0513df21f7496288951c41428a03c174e9e4a9d63665c57d670f845ccb1"
+    },
+    {
+      "file": "LICENSE-GPL-3.0.txt",
+      "source": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/GPL-3.0-only.txt",
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0"
+    }
+  ],
+  "bundledExtPay": {
+    "path": "vendor/ExtPay.js",
+    "sha256": "ec38f20eeea04502e68e99b939fe0e188045bf68cabe605080cdad79c7fae15a",
+    "modified": false
+  },
+  "publicationStatus": "LOCAL OWNER-REVIEW DRAFT; not published; no proprietary application or private correspondence included."
+}

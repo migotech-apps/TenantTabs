@@ -1,0 +1,23 @@
+TenantTabs limited LGPL component replacement permission
+PREPARED FOR OWNER ADOPTION IN AN AUTHORISED DISTRIBUTION; NOT RELEASE APPROVAL
+
+TenantTabs' original application code remains proprietary. For a TenantTabs copy
+lawfully received under an authorised distribution that incorporates this notice,
+the publisher permits the recipient, to the extent required by LGPLv3, to:
+- modify or replace the LGPL-covered ExtPay component;
+- use the supplied application code/materials to recombine or relink TenantTabs
+  with an interface-compatible modified version of that component;
+- install and execute the resulting combination; and
+- reverse engineer the combination as necessary to debug those library changes.
+
+These permissions prevail over conflicting TenantTabs terms to that extent.
+ExtPay and other third-party components retain their respective licence rights;
+this notice does not restrict those rights. No general open-source licence or
+additional proprietary application redistribution permission is granted beyond
+what the applicable licences require. No publisher AMO account, signing authority,
+payment-service entitlement or credential is granted by this permission.
+
+The publisher must adopt this statement in the actual delivered terms, confirm
+that no other terms negate it, and provide all application materials required by
+the selected LGPL section 4 route before claiming compliance. This prepared notice
+does not authorise publication of otherwise unreleased application materials.
