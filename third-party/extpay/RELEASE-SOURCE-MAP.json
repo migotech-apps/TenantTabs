@@ -1,6 +1,8 @@
 {
-  "proposedRepository": "migotech-apps/TenantTabs",
-  "published": false,
+  "repository": "migotech-apps/TenantTabs",
+  "published": true,
+  "publicationUrl": "https://github.com/migotech-apps/TenantTabs/tree/main/third-party/extpay",
+  "publicationScope": "Third-party compliance materials only; application entries remain UNRELEASED. No release or legal approval implied.",
   "entries": [
     {
       "applicationVersion": "1.0.0",
