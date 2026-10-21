@@ -24,7 +24,7 @@ the public Free extension; a separate Pro download is not required.
 - [Homepage](index.html)
 - [Privacy policy](privacy.html)
 - [Support and troubleshooting](support.html)
-- [ExtPay source, licences and replacement instructions](https://github.com/migotech-apps/TenantTabs/tree/main/third-party/extpay)
+- [ExtPay source, licences and replacement instructions](https://migotech-apps.github.io/TenantTabs/third-party/extpay/)
 - [Public bug reports](https://github.com/migotech-apps/TenantTabs/issues)
 - Private billing, licence and privacy enquiries: tenanttabs@m.migotech.net
 
@@ -48,9 +48,9 @@ Add an actual Mozilla Add-ons installation link only after public availability.
 ## Third-party software
 
 TenantTabs includes ExtPay 3.1.2 under LGPLv3 and webextension-polyfill 0.7.0
-under MPL-2.0. [Exact source, licence texts and build materials](https://github.com/migotech-apps/TenantTabs/tree/main/third-party/extpay)
-are preserved here, together with [replacement instructions](third-party/extpay/REPLACEMENT.txt)
-and the [limited permission prepared for adoption in delivered terms](third-party/extpay/PERMISSION.txt).
+under MPL-2.0. [Exact source, licence texts and build materials](https://migotech-apps.github.io/TenantTabs/third-party/extpay/)
+are preserved here, together with [replacement instructions](https://migotech-apps.github.io/TenantTabs/third-party/extpay/REPLACEMENT.txt)
+and the [limited permission prepared for adoption in delivered terms](https://migotech-apps.github.io/TenantTabs/third-party/extpay/PERMISSION.txt).
 TenantTabs application code remains proprietary and is not included.
 
 These materials do not establish final LGPL compliance: application-material
