@@ -3,7 +3,7 @@
 TenantTabs turns Firefox's new-tab page into a searchable container chooser.
 Choose a container, then type straight into the address bar.
 
-This repository hosts **public documentation and support resources only**.
+This repository hosts **public documentation, support resources and third-party compliance materials**.
 TenantTabs' proprietary extension source code is not included.
 
 ## Features
@@ -24,6 +24,7 @@ the public Free extension; a separate Pro download is not required.
 - [Homepage](index.html)
 - [Privacy policy](privacy.html)
 - [Support and troubleshooting](support.html)
+- [ExtPay source, licences and replacement instructions](https://github.com/migotech-apps/TenantTabs/tree/main/third-party/extpay)
 - [Public bug reports](https://github.com/migotech-apps/TenantTabs/issues)
 - Private billing, licence and privacy enquiries: tenanttabs@m.migotech.net
 
@@ -35,19 +36,23 @@ legal obligation. See the privacy policy for details.
 ## Static website
 
 Only HTML and a shared stylesheet are used; no build or dependencies are required.
-Open `index.html` locally to review the website.
+The website is live at https://migotech-apps.github.io/TenantTabs/.
+Open `index.html` locally to preview documentation changes. Keep the public
+repository limited to its curated website and third-party compliance materials;
+do not upload the private extension workspace or internal evidence.
 
-After owner approval, upload these five files to the root of
-[`migotech-apps/TenantTabs`](https://github.com/migotech-apps/TenantTabs):
-`README.md`, `index.html`, `privacy.html`, `support.html`, `style.css`.
-Do not upload the private extension workspace or internal evidence.
-
-In **Settings > Pages**, select **Deploy from a branch**, choose the branch
-containing these files (normally `main`) and **/ (root)**, then save.
-The intended site address is https://migotech-apps.github.io/TenantTabs/.
-Check the deployment result and all three pages after publishing.
-See [GitHub's Pages instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
-
-The privacy policy takes effect on first publication; public commit and Pages
-deployment history record the timing. No publication date is asserted in advance.
+The privacy policy is published on the website; public commit and Pages deployment
+history record publication timing.
 Add an actual Mozilla Add-ons installation link only after public availability.
+
+## Third-party software
+
+TenantTabs includes ExtPay 3.1.2 under LGPLv3 and webextension-polyfill 0.7.0
+under MPL-2.0. [Exact source, licence texts and build materials](https://github.com/migotech-apps/TenantTabs/tree/main/third-party/extpay)
+are preserved here, together with [replacement instructions](third-party/extpay/REPLACEMENT.txt)
+and the [limited permission prepared for adoption in delivered terms](third-party/extpay/PERMISSION.txt).
+TenantTabs application code remains proprietary and is not included.
+
+These materials do not establish final LGPL compliance: application-material
+sufficiency under Section 4(d)(0), adoption of the permission, applicable
+installation information and the final release-to-source mapping remain open.
