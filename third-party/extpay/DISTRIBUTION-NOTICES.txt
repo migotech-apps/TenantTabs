@@ -8,7 +8,7 @@ public upstream downloads; source-provenance.json identifies the corresponding
 archives. The publisher must link the approved compliance repository/source
 download next to the actual application download before distribution.
 Public compliance location:
-https://github.com/migotech-apps/TenantTabs/tree/main/third-party/extpay
+https://migotech-apps.github.io/TenantTabs/third-party/extpay/
 
 Library modification/recombination instructions are in build-instructions.txt and
 REPLACEMENT.txt. The corresponding proprietary application is obtained only via
