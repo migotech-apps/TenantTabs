@@ -2,24 +2,28 @@
   "repository": "migotech-apps/TenantTabs",
   "published": true,
   "publicationUrl": "https://github.com/migotech-apps/TenantTabs/tree/main/third-party/extpay",
-  "publicationScope": "Third-party compliance materials only; application entries remain UNRELEASED. No release or legal approval implied.",
+  "publicationScope": "Third-party source materials are published. Free 1.0.0 is prepared for Mozilla submission, pending publication; internal Pro remains unreleased. No application download is published by this mapping.",
   "entries": [
     {
       "applicationVersion": "1.0.0",
+      "applicationId": "free@tenanttabs.migotech.net",
       "edition": "free",
-      "mappingStatus": "UNRELEASED REFERENCE; owner must confirm exact authorised XPI before release",
+      "mappingStatus": "PREPARED; pending Mozilla publication",
       "applicationArtifactIncluded": false,
-      "applicationXpiSha256": null,
+      "applicationArtifact": "TenantTabs-release-free.xpi",
+      "applicationXpiSha256": "56362600f9e1e03a4bb6c081240ecff09f9353a7025247356eb4f5d12caf516d",
       "applicationDownload": null,
       "distributionScope": "public Free target",
       "component": "ExtPay3.1.2",
+      "componentVersion": "3.1.2",
       "componentSha256": "ec38f20eeea04502e68e99b939fe0e188045bf68cabe605080cdad79c7fae15a",
       "componentCommit": "5e648eaf53d9b82231e239e50310debc100247d1",
       "polyfillVersion": "0.7.0",
       "polyfillCommit": "93203c6995f282dab7370d463e079a2b8d81abbb",
+      "sourceProvenance": "https://migotech-apps.github.io/TenantTabs/third-party/extpay/source-provenance.json",
       "sourceArchives": [
-        "source/ExtPay-3.1.2-source.zip",
-        "source/webextension-polyfill-0.7.0-source.zip"
+        "https://migotech-apps.github.io/TenantTabs/third-party/extpay/source/ExtPay-3.1.2-source.zip",
+        "https://migotech-apps.github.io/TenantTabs/third-party/extpay/source/webextension-polyfill-0.7.0-source.zip"
       ],
       "licence": "LGPLv3 for ExtPay; MPL-2.0 for polyfill"
     },
