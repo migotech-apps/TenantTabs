@@ -15,8 +15,8 @@ TenantTabs' proprietary extension source code is not included.
 - Optional paid Pro: bulk management, smart tab placement, group naming
   customisation and automatic backups.
 
-Firefox **148.0 or later** is required. Public release **1.0.0** is
-[available on Firefox Add-ons](https://addons.mozilla.org/en-GB/firefox/addon/tenanttabs/). Pro activates inside
+Firefox **148.0 or later** is required. **1.0.0** is the current published version,
+[available on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/tenanttabs/). Pro activates inside
 the public Free extension; a separate Pro download is not required.
 
 ## Documentation and support
