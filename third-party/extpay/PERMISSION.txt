@@ -1,8 +1,8 @@
 TenantTabs limited LGPL component replacement permission
-PREPARED FOR OWNER ADOPTION IN AN AUTHORISED DISTRIBUTION; NOT RELEASE APPROVAL
+Published TenantTabs 1.0.0: replacement rights in vendor/NOTICE.txt
 
 TenantTabs' original application code remains proprietary. For a TenantTabs copy
-lawfully received under an authorised distribution that incorporates this notice,
+lawfully received under an authorised distribution,
 the publisher permits the recipient, to the extent required by LGPLv3, to:
 - modify or replace the LGPL-covered ExtPay component;
 - use the supplied application code/materials to recombine or relink TenantTabs
@@ -17,7 +17,7 @@ additional proprietary application redistribution permission is granted beyond
 what the applicable licences require. No publisher AMO account, signing authority,
 payment-service entitlement or credential is granted by this permission.
 
-The publisher must adopt this statement in the actual delivered terms, confirm
-that no other terms negate it, and provide all application materials required by
-the selected LGPL section 4 route before claiming compliance. This prepared notice
-does not authorise publication of otherwise unreleased application materials.
+The published Firefox 1.0.0 XPI carries these permissions in vendor/NOTICE.txt;
+they are not conditional on future adoption of this separate document. The listing
+has no separate EULA. This notice does not grant permission to publish additional
+proprietary application materials or constitute legal certification.

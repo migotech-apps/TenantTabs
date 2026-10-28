@@ -12,7 +12,8 @@ Complete licence texts, the corresponding third-party source archives and applic
 - `source-provenance.json` identifies the corresponding source archives.
 - `SHA256SUMS.txt` provides checksums for the audited distribution materials.
 - `build-instructions.txt` and `REPLACEMENT.txt` describe library modification and replacement procedures.
-- `PERMISSION.txt` contains the proposed limited replacement permission for incorporation into the applicable distribution terms.
+- `PERMISSION.txt` describes replacement permissions already carried in the published XPI's `vendor/NOTICE.txt`.
+- `RELEASE-SOURCE-MAP.json` identifies public Firefox 1.0.0, its XPI checksum and corresponding library source archives. Its internal Pro reference remains unreleased.
 
 ## Public Compliance Location
 
@@ -38,17 +39,10 @@ Modifying a signed Firefox XPI invalidates its signature. Temporary development 
 
 These materials do not guarantee access to Mozilla signing keys or approval for a modified extension.
 
-## Outstanding Compliance Requirements
+## Published release and replacement rights
 
-Publication of the third-party source materials does not, by itself, establish complete LGPL compliance.
+TenantTabs 1.0.0 is [published on Firefox Add-ons](https://addons.mozilla.org/en-GB/firefox/addon/tenanttabs/). The XPI contains editable application JavaScript, HTML, manifest and assets. Static inspection supports replacement of `vendor/ExtPay.js` without an application rebuild for the LGPLv3 Section 4(d)(0) route. The bundled notice permits replacement, recombination, installation, execution and reverse engineering needed to debug library changes, overriding conflicting application terms to that extent.
 
-Before final distribution, the publisher must resolve:
+LGPLv3 Section 4(e) applies only when GPLv3 Section 6 requires installation information. No transfer of possession/use of a User Product has been identified for this standalone extension download to an existing browser, so no additional installation information has been identified for this distribution. Distribution with a User Product or under different terms requires reassessment.
 
-- The sufficiency of Corresponding Application Code and recombination arrangements under LGPLv3 Section 4(d)(0).
-- Formal adoption of any necessary replacement permissions in the applicable distribution terms.
-- Any applicable installation-information requirements.
-- Accurate mapping between the distributed TenantTabs version, the bundled third-party libraries and the corresponding source materials.
-
-These matters remain subject to final technical and legal review.
-
-The public availability of these materials must not be interpreted as confirmation that all outstanding distribution requirements have been satisfied.
+Temporary loading does not establish satisfaction of every possible installation obligation. These findings describe inspected materials and the current distribution; they do not constitute legal certification. See `REPLACEMENT.txt` for the procedure and signing limitations. `SHA256SUMS.txt` remains the original preparation inventory, not a current checksum manifest for revised documents.

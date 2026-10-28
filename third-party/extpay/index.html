@@ -17,45 +17,48 @@
   <main id="main">
     <h1>Third-party licences and source</h1>
     <p class="lead">TenantTabs includes ExtPay.js 3.1.2 under LGPLv3 and webextension-polyfill 0.7.0 under MPL-2.0. TenantTabs application code remains proprietary.</p>
+    <p>Recipients retain the rights granted by the applicable third-party licences.</p>
     <p>Use the direct links below to read the notices and instructions or download the preserved third-party source archives. These materials are available without charge.</p>
 
     <section aria-labelledby="licences">
       <h2 id="licences">Licence texts and notices</h2>
       <ul>
-        <li><a href="LICENSE-LGPL-3.0.txt" download>Download the LGPLv3 text, including GPLv3 terms</a></li>
-        <li><a href="LICENSE-GPL-3.0.txt" download>Download the GPLv3 text</a></li>
-        <li><a href="LICENSE-MPL-2.0.txt" download>Download the MPL-2.0 text</a></li>
-        <li><a href="NOTICES.txt">Third-party notices and pinned upstream references</a></li>
-        <li><a href="DISTRIBUTION-NOTICES.txt">Distribution notice</a></li>
+        <li><a href="LICENSE-LGPL-3.0.txt" download>LICENSE-LGPL-3.0.txt</a> - download the LGPLv3 text, including GPLv3 terms.</li>
+        <li><a href="LICENSE-GPL-3.0.txt" download>LICENSE-GPL-3.0.txt</a> - download the GPLv3 text.</li>
+        <li><a href="LICENSE-MPL-2.0.txt" download>LICENSE-MPL-2.0.txt</a> - download the MPL-2.0 text.</li>
+        <li><a href="NOTICES.txt">NOTICES.txt</a> - third-party notices and pinned upstream references.</li>
+        <li><a href="DISTRIBUTION-NOTICES.txt">DISTRIBUTION-NOTICES.txt</a> - distribution notice.</li>
       </ul>
     </section>
 
     <section aria-labelledby="sources">
-      <h2 id="sources">Exact library source archives</h2>
+      <h2 id="sources">Source archives, provenance and checksums</h2>
       <ul>
-        <li><a href="source/ExtPay-3.1.2-source.zip" download>Download ExtPay 3.1.2 source (ZIP)</a></li>
-        <li><a href="source/webextension-polyfill-0.7.0-source.zip" download>Download webextension-polyfill 0.7.0 source (ZIP)</a></li>
-        <li><a href="source-provenance.json">Source commits, archive identities and provenance</a></li>
-        <li><a href="ExtPay-3.1.2-dependencies.json">Locked ExtPay dependency inventory</a></li>
+        <li><a href="source/ExtPay-3.1.2-source.zip" download>ExtPay-3.1.2-source.zip</a> - download the exact ExtPay 3.1.2 library source.</li>
+        <li><a href="source/webextension-polyfill-0.7.0-source.zip" download>webextension-polyfill-0.7.0-source.zip</a> - download the exact polyfill 0.7.0 library source.</li>
+        <li><a href="source-provenance.json">source-provenance.json</a> - source commits, archive identities and provenance.</li>
+        <li><a href="ExtPay-3.1.2-dependencies.json">ExtPay-3.1.2-dependencies.json</a> - locked ExtPay dependency information.</li>
+        <li><a href="SHA256SUMS.txt">SHA256SUMS.txt</a> - original audited checksum inventory.</li>
       </ul>
-      <p><a href="SHA256SUMS.txt">Original audited checksum inventory</a> records the preparation snapshot. Later documentation changes and this landing page are not reflected in that unchanged inventory.</p>
+      <p>The checksum inventory records the preparation snapshot. Later documentation changes and this landing page are not reflected in that unchanged inventory.</p>
     </section>
 
     <section aria-labelledby="replacement">
       <h2 id="replacement">Build and replacement instructions</h2>
       <ul>
-        <li><a href="build-instructions.txt">Editable library inputs and build instructions</a></li>
-        <li><a href="REPLACEMENT.txt">Library replacement and recombination instructions</a></li>
-        <li><a href="PERMISSION.txt">Limited replacement permission for adoption in delivered terms</a></li>
-        <li><a href="RELEASE-SOURCE-MAP.json">Unreleased application-to-source reference mapping</a></li>
+        <li><a href="build-instructions.txt">build-instructions.txt</a> - editable library inputs and build instructions.</li>
+        <li><a href="REPLACEMENT.txt">REPLACEMENT.txt</a> - library replacement and recombination instructions.</li>
+        <li><a href="PERMISSION.txt">PERMISSION.txt</a> - replacement rights carried in the distributed application notice.</li>
+        <li><a href="RELEASE-SOURCE-MAP.json">RELEASE-SOURCE-MAP.json</a> - published Firefox release, XPI checksum and corresponding library sources.</li>
       </ul>
       <p>The corresponding proprietary application must be obtained through its authorised distribution. Application code and XPIs are not included here. Modifying a signed XPI invalidates its signature; temporary loading is session-limited, and recipient signing approval is not guaranteed.</p>
     </section>
 
-    <section aria-labelledby="outstanding">
-      <h2 id="outstanding">Outstanding compliance requirements</h2>
-      <p>Public source hosting does not establish final LGPL compliance or approve a TenantTabs release. LGPLv3 Section 4(d)(0) application-material sufficiency and recombination arrangements, adoption of effective delivery permissions, applicable Section 4(e)/GPL section 6 installation information, and accurate final release-to-source mapping remain unresolved.</p>
-      <p>No final XPI hash, application release approval or legal sign-off is implied by this page.</p>
+    <section aria-labelledby="distribution">
+      <h2 id="distribution">Published release and replacement rights</h2>
+      <p><a href="https://addons.mozilla.org/en-GB/firefox/addon/tenanttabs/">TenantTabs 1.0.0 is available on Firefox Add-ons</a>. Its XPI supplies the application JavaScript, HTML, manifest and assets used for library replacement under LGPLv3 Section 4(d)(0). ExtPay is a separate file; replacement does not require rebuilding the application. The bundled vendor/NOTICE.txt permits replacement, recombination, installation, execution and reverse engineering needed to debug library modifications, overriding conflicting TenantTabs terms to that extent.</p>
+      <p>LGPLv3 Section 4(e) requires installation information only when GPLv3 Section 6 requires it. The published distribution is a standalone extension download for an existing browser, with no identified transfer of a User Product. No additional installation information has been identified for that distribution; distribution with a User Product would require a separate assessment. Temporary loading does not establish that every possible installation obligation is satisfied.</p>
+      <p>These statements describe the inspected release and its materials, not legal certification or approval. See the replacement instructions for Firefox signing and installation limitations.</p>
     </section>
     <p><a href="https://github.com/migotech-apps/TenantTabs/tree/main/third-party/extpay">Technical repository and file history</a></p>
   </main>

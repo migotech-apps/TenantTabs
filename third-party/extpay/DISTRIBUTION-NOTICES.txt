@@ -5,18 +5,20 @@ Recipients retain the rights granted by the component licences.
 Complete licence texts, the exact covered source and applicable build materials
 are supplied in this compliance source distribution. NOTICES.txt provides pinned
 public upstream downloads; source-provenance.json identifies the corresponding
-archives. The publisher must link the approved compliance repository/source
-download next to the actual application download before distribution.
+archives. TenantTabs 1.0.0 is published at:
+https://addons.mozilla.org/en-GB/firefox/addon/tenanttabs/
+Its bundled vendor/NOTICE.txt links the source downloads and compliance page.
 Public compliance location:
 https://migotech-apps.github.io/TenantTabs/third-party/extpay/
 
 Library modification/recombination instructions are in build-instructions.txt and
 REPLACEMENT.txt. The corresponding proprietary application is obtained only via
 its authorised distribution; it is not included in this repository. PERMISSION.txt
-provides the limited replacement permission for adoption in those delivered terms.
+describes the limited replacement rights already carried in vendor/NOTICE.txt.
 
 Modifying a signed XPI invalidates its signature. Temporary development loading
 is session-limited; permanent installation on release/beta Firefox normally
 requires Mozilla signing. No signing key or Mozilla approval is promised by
-these materials. The section 4(d)(0) application-material and installation review
-must be resolved before the publisher claims complete LGPL compliance.
+these materials. The XPI supplies editable application files for the section
+4(d)(0) route. See REPLACEMENT.txt for the conditional section 4(e)/GPL section 6
+installation-information assessment. No legal certification is claimed.

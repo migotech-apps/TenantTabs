@@ -19,6 +19,6 @@ warranty disclaimers are retained within the unmodified source snapshots.
 
 The original TenantTabs application remains proprietary. Recipients retain the
 rights granted by the covered component licences. See PERMISSION.txt for the
-limited replacement permission prepared for incorporation in application terms,
-and REPLACEMENT.txt for the proposed process and unresolved release conditions.
+limited replacement permission carried in the published XPI's vendor/NOTICE.txt,
+and REPLACEMENT.txt for the replacement process and installation limitations.
 This repository contains no private maintainer correspondence.

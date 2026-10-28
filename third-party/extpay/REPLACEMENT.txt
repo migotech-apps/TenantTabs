@@ -1,5 +1,5 @@
-Proposed LGPLv3 section 4 replacement/recombination method
-STATIC REVIEW; SUFFICIENCY NOT YET DEMONSTRATED; NO FIREFOX TESTS PERFORMED
+LGPLv3 section 4 replacement/recombination method
+Published Firefox 1.0.0 XPI inspected 28 October 2026; static verification
 
 Section 4(d)(0) requires both Minimal Corresponding Source for the library and
 Corresponding Application Code in a suitable form and under terms allowing
@@ -7,19 +7,20 @@ recombination. Application code may be object and/or source code, with necessary
 data and utilities. A public ExtPay source repository alone is insufficient.
 Section 4(d)(1) is not assumed merely because vendor/ExtPay.js is a separate file.
 
-Candidate application material is the exact already-authorised delivered XPI:
+Application material is the published XPI identified in RELEASE-SOURCE-MAP.json:
 its HTML/JavaScript/assets/manifest are readable and can be copied independently
 of the original edition packager. An interface-compatible vendor/ExtPay.js can
 therefore be substituted without compiling the proprietary application anew.
-Static inspection supports this design, but no modified extension has been built
-or executed here. The owner must confirm that the delivered materials really
-contain everything needed and incorporate PERMISSION.txt in the actual terms.
-Any necessary application material not already authorised for delivery remains
-a blocker. Do not upload proprietary application code or XPIs to this repository,
-infer a broad application source release, or claim these documents alone comply.
-The same assessment applies to Free and any authorised recipients of internal Pro.
+Static inspection confirms the separate library manifest entries and delivered
+application files; no application compiler or private packaging utility is needed
+to substitute the library. The shipped vendor/NOTICE.txt grants replacement,
+recombination and debugging rights with precedence over conflicting application
+terms. This supports the section 4(d)(0) technical route; it is not legal
+certification or a newly executed modified-library browser test. Do not upload
+proprietary application code or XPIs here or infer a general application source
+licence. This assessment covers public Free 1.0.0, not internal Pro builds.
 
-Recipient process for the proposed method:
+Recipient process:
 1. Obtain covered source through NOTICES.txt. Obtain the exact corresponding
    TenantTabs XPI only through its authorised distribution, not this repository.
 2. Modify ExtPay.dev.js, rebuilding the library as described in build-instructions.txt,
@@ -55,20 +56,23 @@ specifically for a User Product as part of a transfer of possession/use of that
 product. A standalone extension download on the recipient's existing computer
 does not by itself establish such a transfer; distributing with hardware or a
 different transaction could change the analysis. Neither universal exemption
-nor automatic applicability is asserted here. Owner/legal review must establish
-the actual transaction and any resulting obligations. If applicable, sufficient
+nor automatic applicability is asserted here. For the published standalone
+Firefox download, no transfer of possession/use of a User Product has been
+identified, so no additional installation information has been identified under
+this conditional provision. This assesses that distribution only. If applicable, sufficient
 installation/execution information is needed; a session-only load or a route
 dependent on unguaranteed third-party signing must not be silently approved.
 Even if section 4(e) does not apply, section 4(d)(0)'s materials and effective
 permission requirements still apply. Copyright attribution permission is not a
 blanket waiver of any of these other obligations.
 
-Decision before distribution
-Confirm application-material sufficiency and authorisation, adopt the limited
-permission, and settle installation-information applicability/adequacy. Until
-then section 4 compliance is not demonstrably satisfied and this release gate
-cannot close. No new proprietary materials or publisher credentials are released
-by this proposed route. This does not reopen the resolved LGPL/AGPL ambiguity.
+Release scope
+RELEASE-SOURCE-MAP.json identifies the inspected public XPI and library sources.
+Future releases must retain effective permissions, notices and corresponding
+materials and update that mapping. Distribution with hardware or under different
+terms requires reassessment. No publisher credentials or general proprietary
+redistribution rights are supplied by this method. This does not reopen the
+resolved LGPL/AGPL ambiguity or certify legal compliance.
 
 References
 https://www.gnu.org/licenses/lgpl-3.0.html (section 4)
