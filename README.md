@@ -15,9 +15,8 @@ TenantTabs' proprietary extension source code is not included.
 - Optional paid Pro: bulk management, smart tab placement, group naming
   customisation and automatic backups.
 
-Firefox **148.0 or later** is required. Initial public release **1.1.0** is being
-prepared; the extension is not yet publicly released and there is no Mozilla
-Add-ons installation link yet. Pro activates inside
+Firefox **148.0 or later** is required. Public release **1.0.0** is
+[available on Firefox Add-ons](https://addons.mozilla.org/en-GB/firefox/addon/tenanttabs/). Pro activates inside
 the public Free extension; a separate Pro download is not required.
 
 ## Documentation and support
@@ -44,16 +43,17 @@ do not upload the private extension workspace or internal evidence.
 
 The privacy policy is published on the website; public commit and Pages deployment
 history record publication timing.
-Add an actual Mozilla Add-ons installation link only after public availability.
+The Mozilla Add-ons listing provides the public extension download.
 
 ## Third-party licences and source
 
 TenantTabs includes ExtPay 3.1.2 under LGPLv3 and webextension-polyfill 0.7.0
 under MPL-2.0. [Exact source, licence texts and build materials](https://migotech-apps.github.io/TenantTabs/third-party/extpay/)
 are preserved here, together with [replacement instructions](https://migotech-apps.github.io/TenantTabs/third-party/extpay/REPLACEMENT.txt)
-and the [limited permission prepared for adoption in delivered terms](https://migotech-apps.github.io/TenantTabs/third-party/extpay/PERMISSION.txt).
+and the [replacement rights carried in the distributed notice](https://migotech-apps.github.io/TenantTabs/third-party/extpay/PERMISSION.txt).
 TenantTabs application code remains proprietary and is not included.
 
-These materials do not establish final LGPL compliance: application-material
-sufficiency under Section 4(d)(0), adoption of the permission, applicable
-installation information and the final release-to-source mapping remain open.
+The [release mapping](https://migotech-apps.github.io/TenantTabs/third-party/extpay/RELEASE-SOURCE-MAP.json)
+identifies the inspected public XPI and corresponding sources. The replacement
+instructions describe the application materials, effective permissions and
+conditional installation-information requirements; no legal certification is claimed.
