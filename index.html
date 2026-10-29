@@ -6,6 +6,7 @@
   <meta name="description" content="TenantTabs by Migotech: choose a Firefox container for each new tab and organise your browsing contexts.">
   <title>TenantTabs by Migotech | Firefox container management</title>
   <link rel="stylesheet" href="style.css">
+  <script src="gallery.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -33,12 +34,33 @@
         <article class="feature"><h3>Backup and restore</h3><p>Save and restore your configuration manually. Optional Pro functionality adds automatic backups.</p></article>
       </div>
     </section>
+    <section class="screenshot-gallery" aria-labelledby="gallery-heading">
+      <h2 id="gallery-heading">See TenantTabs in action</h2>
+      <div class="gallery-controls" role="group" aria-label="Screenshot categories" hidden>
+        <button type="button" data-category="chooser" aria-pressed="true" aria-controls="gallery-panel">Main Interface</button>
+        <button type="button" data-category="search" aria-pressed="false" aria-controls="gallery-panel">Container Search</button>
+        <button type="button" data-category="management" aria-pressed="false" aria-controls="gallery-panel">New Container</button>
+        <button type="button" data-category="rules" aria-pressed="false" aria-controls="gallery-panel">Website Rules</button>
+      </div>
+      <figure id="gallery-panel" class="gallery-panel">
+        <a id="gallery-link" class="screenshot-link" href="assets/screenshots/container-chooser.png" data-enlarge aria-label="Enlarge the Main Interface screenshot">
+          <img id="gallery-image" src="assets/screenshots/container-chooser.png" width="1423" height="1051" fetchpriority="high" decoding="async" alt="TenantTabs container chooser showing search, recently used containers, groups and container creation actions.">
+        </a>
+        <figcaption><div aria-live="polite" aria-atomic="true"><h3 id="gallery-title">Main Interface</h3><p id="gallery-caption">Find, create and reuse your Firefox containers from one convenient interface.</p></div><span class="showcase-hint">Select image to enlarge</span></figcaption>
+      </figure>
+      <noscript><p>JavaScript enables category selection and the enlargement overlay. Open the screenshots directly: <a href="assets/screenshots/container-chooser.png">main interface</a>, <a href="assets/screenshots/container-search.png">container search</a>, <a href="assets/screenshots/container-management.png">new container</a> or <a href="assets/screenshots/website-rules.png">website rules</a>.</p></noscript>
+    </section>
     <section aria-labelledby="pro">
       <h2 id="pro">Free features, optional Pro functionality</h2>
       <p class="lead">Container management, groups, favourites, recents, website rules, temporary containers and manual backups are included in Free. Pro adds bulk management, smart tab placement, group naming customisation and automatic backups.</p>
       <p>Pro activates in the same public extension through verified ExtensionPay licensing, with payments processed by Stripe. Licensing connections require your consent. Free features work without a licensing account. Read the <a href="privacy.html">privacy policy</a> or visit <a href="support.html">support</a> for activation and recovery guidance.</p>
     </section>
   </main>
+  <dialog id="screenshot-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-toolbar"><h2 id="dialog-title">TenantTabs screenshot</h2><button id="dialog-close" type="button" autofocus>Close screenshot</button></div>
+    <img id="dialog-image" alt="">
+    <p id="dialog-caption"></p>
+  </dialog>
   <footer class="site-footer"><p>TenantTabs by Migotech</p><nav aria-label="Footer navigation"><a href="index.html">Home</a><a href="privacy.html">Privacy policy</a><a href="support.html">Support</a><a href="https://migotech-apps.github.io/TenantTabs/third-party/extpay/">Third-party licences and source</a><a href="https://github.com/migotech-apps/TenantTabs">GitHub</a></nav></footer>
 </body>
 </html>
